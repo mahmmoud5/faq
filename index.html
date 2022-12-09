@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+<!--fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="box"></div>
+    <section>
+      <article class="head-name">
+        <h1>FAQ</h1>
+      </article>
+      <article class="question-container">
+      <div class="question-box">
+        <div class="question-head" onclick="div1()">
+          <h2 id="q1">How many team members can I invite?</h2><img src="images/icon-arrow-down.svg" alt="arrow" id="arrow1">
+        </div>
+        <p id="p1">You can invite up to 2 additional users on the Free plan. There is no limit on 
+        team members for the Premium plan.</p>
+      </div>
+      <div class="question-box">
+        <div class="question-head" onclick="div2()">
+          <h2 id="q2">What is the maximum file upload size?</h2><img src="images/icon-arrow-down.svg" alt="arrow" id="arrow2">
+        </div>
+        <p id="p2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+      <div class="question-box">
+        <div class="question-head" onclick="div3()">
+          <h2 id="q3">How do I reset my password?</h2><img src="images/icon-arrow-down.svg" alt="arrow" id="arrow3">
+        </div>
+        <p id="p3">Click “Forgot password” from the login page or “Change password” from your profile page.
+        A reset link will be emailed to you.</p>
+      </div>
+      <div class="question-box">
+        <div class="question-head" onclick="div4()">
+          <h2 id="q4">Can I cancel my subscription?</h2><img src="images/icon-arrow-down.svg" alt="arrow" id="arrow4">
+        </div>
+        <p id="p4">Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </div>
+      <div class="question-box">
+        <div class="question-head" onclick="div5()">
+          <h2 id="q5">Do you provide additional support?</h2><img src="images/icon-arrow-down.svg" alt="arrow" id="arrow5">
+        </div>
+        <p id="p5">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      </div>
+    </article>
+    </section>
+  </main>
+  <script>
+    function div1(){
+      /*change1*/
+      p1 = document.getElementById("p1");
+      q1 = document.getElementById("q1");
+      arrow1 = document.getElementById("arrow1");
+      p1.style.display = "flex"
+      q1.style.fontWeight = "900";
+      arrow1.style.transform = "rotate(180deg)";
+      /*reset*/
+      /*2*/
+      p2 = document.getElementById("p2");
+      q2 = document.getElementById("q2");
+      arrow2 = document.getElementById("arrow2");
+      p2.style.display = "none"
+      q2.style.fontWeight = "400";
+      arrow2.style.transform = "rotate(0deg)";
+      /*3*/
+      p3 = document.getElementById("p3");
+      q3 = document.getElementById("q3");
+      arrow3 = document.getElementById("arrow3");
+      p3.style.display = "none"
+      q3.style.fontWeight = "400";
+      arrow3.style.transform = "rotate(0deg)";
+      /*4*/
+      p4 = document.getElementById("p4");
+      q4 = document.getElementById("q4");
+      arrow4 = document.getElementById("arrow4");
+      p4.style.display = "none"
+      q4.style.fontWeight = "400";
+      arrow4.style.transform = "rotate(0deg)";
+      /*5*/
+      p5 = document.getElementById("p5");
+      q5 = document.getElementById("q5");
+      arrow5 = document.getElementById("arrow5");
+      p5.style.display = "none"
+      q5.style.fontWeight = "400";
+      arrow5.style.transform = "rotate(0deg)";
+    }
+    function div2(){
+    /*change2*/
+      p2 = document.getElementById("p2");
+      q2 = document.getElementById("q2");
+      arrow2 = document.getElementById("arrow2");
+      p2.style.display = "flex"
+      q2.style.fontWeight = "900";
+      arrow2.style.transform = "rotate(180deg)";
+      /*reset*/
+      /*1*/
+      p1 = document.getElementById("p1");
+      q1 = document.getElementById("q1");
+      arrow1 = document.getElementById("arrow1");
+      p1.style.display = "none"
+      q1.style.fontWeight = "400";
+      arrow1.style.transform = "rotate(0deg)";
+      /*3*/
+      p3 = document.getElementById("p3");
+      q3 = document.getElementById("q3");
+      arrow3 = document.getElementById("arrow3");
+      p3.style.display = "none"
+      q3.style.fontWeight = "400";
+      arrow3.style.transform = "rotate(0deg)";
+      /*4*/
+      p4 = document.getElementById("p4");
+      q4 = document.getElementById("q4");
+      arrow4 = document.getElementById("arrow4");
+      p4.style.display = "none"
+      q4.style.fontWeight = "400";
+      arrow4.style.transform = "rotate(0deg)";
+      /*5*/
+      p5 = document.getElementById("p5");
+      q5 = document.getElementById("q5");
+      arrow5 = document.getElementById("arrow5");
+      p5.style.display = "none"
+      q5.style.fontWeight = "400";
+      arrow5.style.transform = "rotate(0deg)";
+    }
+    function div3(){
+    /*change3*/
+      p3 = document.getElementById("p3");
+      q3 = document.getElementById("q3");
+      arrow3 = document.getElementById("arrow3");
+      p3.style.display = "flex"
+      q3.style.fontWeight = "900";
+      arrow3.style.transform = "rotate(180deg)";
+      /*reset*/
+      /*1*/
+      p1 = document.getElementById("p1");
+      q1 = document.getElementById("q1");
+      arrow1 = document.getElementById("arrow1");
+      p1.style.display = "none"
+      q1.style.fontWeight = "400";
+      arrow1.style.transform = "rotate(0deg)";
+      /*2*/
+      p2 = document.getElementById("p2");
+      q2 = document.getElementById("q2");
+      arrow2 = document.getElementById("arrow2");
+      p2.style.display = "none"
+      q2.style.fontWeight = "400";
+      arrow2.style.transform = "rotate(0deg)";
+      /*4*/
+      p4 = document.getElementById("p4");
+      q4 = document.getElementById("q4");
+      arrow4 = document.getElementById("arrow4");
+      p4.style.display = "none"
+      q4.style.fontWeight = "400";
+      arrow4.style.transform = "rotate(0deg)";
+      /*5*/
+      p5 = document.getElementById("p5");
+      q5 = document.getElementById("q5");
+      arrow5 = document.getElementById("arrow5");
+      p5.style.display = "none"
+      q5.style.fontWeight = "400";
+      arrow5.style.transform = "rotate(0deg)";
+    }
+    function div4(){
+    /*change4*/
+      p4 = document.getElementById("p4");
+      q4 = document.getElementById("q4");
+      arrow4 = document.getElementById("arrow4");
+      p4.style.display = "flex"
+      q4.style.fontWeight = "900";
+      arrow4.style.transform = "rotate(180deg)";
+      /*reset*/
+      /*1*/
+      p1 = document.getElementById("p1");
+      q1 = document.getElementById("q1");
+      arrow1 = document.getElementById("arrow1");
+      p1.style.display = "none"
+      q1.style.fontWeight = "400";
+      arrow1.style.transform = "rotate(0deg)";
+      /*2*/
+      p2 = document.getElementById("p2");
+      q2 = document.getElementById("q2");
+      arrow2 = document.getElementById("arrow2");
+      p2.style.display = "none"
+      q2.style.fontWeight = "400";
+      arrow2.style.transform = "rotate(0deg)";
+      /*3*/
+      p3 = document.getElementById("p3");
+      q3 = document.getElementById("q3");
+      arrow3 = document.getElementById("arrow3");
+      p3.style.display = "none"
+      q3.style.fontWeight = "400";
+      arrow3.style.transform = "rotate(0deg)";
+      /*5*/
+      p5 = document.getElementById("p5");
+      q5 = document.getElementById("q5");
+      arrow5 = document.getElementById("arrow5");
+      p5.style.display = "none"
+      q5.style.fontWeight = "400";
+      arrow5.style.transform = "rotate(0deg)";
+    }
+    function div5(){
+    /*change5*/
+      p5 = document.getElementById("p5");
+      q5 = document.getElementById("q5");
+      arrow5 = document.getElementById("arrow5");
+      p5.style.display = "flex"
+      q5.style.fontWeight = "900";
+      arrow5.style.transform = "rotate(180deg)";
+      /*reset*/
+      /*1*/
+      p1 = document.getElementById("p1");
+      q1 = document.getElementById("q1");
+      arrow1 = document.getElementById("arrow1");
+      p1.style.display = "none"
+      q1.style.fontWeight = "400";
+      arrow1.style.transform = "rotate(0deg)";
+      /*2*/
+      p2 = document.getElementById("p2");
+      q2 = document.getElementById("q2");
+      arrow2 = document.getElementById("arrow2");
+      p2.style.display = "none"
+      q2.style.fontWeight = "400";
+      arrow2.style.transform = "rotate(0deg)";
+      /*3*/
+      p3 = document.getElementById("p3");
+      q3 = document.getElementById("q3");
+      arrow3 = document.getElementById("arrow3");
+      p3.style.display = "none"
+      q3.style.fontWeight = "400";
+      arrow3.style.transform = "rotate(0deg)";
+      /*4*/
+      p4 = document.getElementById("p4");
+      q4 = document.getElementById("q4");
+      arrow4 = document.getElementById("arrow4");
+      p4.style.display = "none"
+      q4.style.fontWeight = "400";
+      arrow4.style.transform = "rotate(0deg)";
+    }
+  </script>
+</body>
+</html>
